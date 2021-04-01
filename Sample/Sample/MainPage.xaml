@@ -11,7 +11,7 @@
     </ContentPage.BindingContext>
 
     <Grid RowDefinitions="Auto, *">
-        <Button Text="Change Template" Clicked="Button_Clicked" BackgroundColor="Blue" TextColor="White">
+        <Button Text="Highlight" Clicked="Button_Clicked" BackgroundColor="Blue" TextColor="White">
             <Button.Margin>
                 <OnPlatform x:TypeArguments="Thickness">
                     <OnPlatform.Platforms>
